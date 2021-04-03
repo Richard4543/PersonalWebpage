@@ -65,7 +65,7 @@ if (isset($_POST['Email'])) {
 
 
     Thank you for contacting us. We will be in touch with you very soon.
-    <meta http-equiv="refresh" content="5;url=Home.html">
+    <meta http-equiv="refresh" content="5;url=https://www.hernandezricardo.com/home">
 
 <?php
 }
