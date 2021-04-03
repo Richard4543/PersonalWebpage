@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['Email'])) {
 
-    $email_to = "Ricardohernandez@csus.edu";
+    $email_to = "Ricardohernandez@gmail.com";
     $email_subject = "New Web Message";
 
     function problem($error)
@@ -65,7 +65,7 @@ if (isset($_POST['Email'])) {
 
 
     Thank you for contacting us. We will be in touch with you very soon.
-    <meta http-equiv="refresh" content="5;url=https://www.hernandezricardo.com/home">
+    <meta http-equiv="refresh" content="5;url=https://www.hernandezricardo.com">
 
 <?php
 }
