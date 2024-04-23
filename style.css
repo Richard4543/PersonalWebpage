@@ -1,35 +1,64 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #00000000;
-
 }
 
-body{
+body {
   background-color: #2f4f4f;
 }
 
 .bgimg-1 {
-  background-image: url("Designer4.png");
-  height: 75vh; /* Set height relative to viewport height */
-  position: relative;
-  /* opacity: 0.65; */
+  background-image: url("Designer4.png"); /* Replace 'your-background-image.jpg' with your actual image URL */
+  height: 100vh;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  color: white; /* Set text color to white */
   z-index: -2;
 }
 
+/* Style for the dark overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.589
+  ); /* Adjust the opacity (last value) to control darkness */
+}
+
+/* Style for the text container */
 .caption {
   position: absolute;
-  left: 0;
   top: 50%;
-  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  color: #000;
-  transform: translateY(-50%);
-  z-index: 1;
+}
+
+.border {
+  padding: 18px;
+  font-size: 25px;
+  color: white;
+  border: 3px solid #f1f1f1;
+  border-radius: 5px;
+}
+
+.bullet-points {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bullet-points li {
+  margin-bottom: 10px;
 }
 
 .caption span {
@@ -42,7 +71,7 @@ body{
 .caption span.border {
   background-color: rgb(80, 0, 0);
   color: rgb(255, 255, 255);
-  opacity: .9;
+  opacity: 0.9;
   padding: 2vw; /* Set padding relative to viewport width */
   font-size: 2.9vw; /* Set font size for the name relative to viewport width */
   letter-spacing: 1vw; /* Set letter spacing relative to viewport width */
@@ -86,5 +115,3 @@ h3 {
   margin-bottom: 20px; /* Add some space between paragraphs */
   text-align: left; /* Align paragraphs to the left */
 }
-
-
